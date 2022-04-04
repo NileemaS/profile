@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src = "profileHeader.js" type = "text/javascript" defer></script>    
+    <script src = "profileFooter.js" type = "text/javascript" defer></script> 
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src= "search.js" type = "text/javascript"></script></script>
+    <link rel = "stylesheet" href = "styles.css">
+      
+    <title> Profile </title>   
+</head>
+
+<body>  
+    <div>
+        <header-comp class="header"> </header-comp> 
+    </div>
+       
+    <div class = "main">
+        <!--Div Main Left Area Start-->
+        <div id = "leftside" class = "divleft"> 
+
+            <div class="tab">
+                <span>Hover Tabs</span>
+                <button class="tablinks" onmouseover="openTab(event, 'tIntro')">Introduction</button>
+                <button class="tablinks" onmouseover="openTab(event, 'tVideo')">Video Introduction
+                </button>
+                <button class="tablinks" onmouseover="openTab(event, 'tGitInfo')">GitHub Bio</button>
+                <button class="tablinks" onmouseover="openTab(event, 'tContact')">Contact</button>
+              </div>
+        </div>
+
+        <div  id = "center" class = "divcenter frntimg">
+            <!--Div Main Center Area Start-->
+            <div id="tIntro" class="tabcontent">  
+                
+                <!--tab Introduction-->
+                <div style="padding-left: 10px; padding-bottom: 2px; display: flex; flex: 1;">
+                    <img  src="./bb.gif.gif" alt="Bouncing Balls GIF" >
+                    <h3 style="margin-left: 20%; font-family:cursive;">Welcome to My Profile </h3>   
+                </div>
+                                
+                <div class="testcolor"></div>
+              
+                <div style="color:white; background-color: #92a8d1; width:700px; padding: 10px;">
+                    <p>Hi, I am Nileema, a Fullstack Web Developer in training. </p>
+                    
+                    <p>I joined MIT|XPRO course for the Full Stack Development with MERN in December 2021.
+                  It was the perfect gift for my New Year 22 from my husband. </p>
+                    
+                    <p>I have worked in IT for almost 10 years then decided to take a break from active career and enjoyed the time with kids, involved with their school and activities like secretory in PTA, running Chess club and volunteered in many fund raising. </p>
+                  
+                    <p> My daughter is now in 2nd year college and son senior year in high school. 
+                    It's the perfect time for me to get back in IT world which I missed sometimes. </p>
+                    
+                    <p> Our batch Dec2021 is the perfect class with full of curious minded women and I do enjoy the feedback on exercises. It is a fun to work on all these challenging projects and feel to be ready to take a flight again in IT market. Ofcourse we are doing more than these projects in day to day exercises but displaying my 3 projects 
+                    over here as a part of the assignment. </p>
+                      
+                    <p> Pacmen: Fun to watch them moving all over the screen and turning back from the walls. </p>
+
+                    <p> Eye Exercise: Two big eyes follow the mouse movements. </p>
+
+                    <p> Bus Tracker: On the map, it shows active buses live tracking with bus stop markers. </p>
+                      
+                </div>
+            </div>
+
+            <!--tab Video-->
+            <div id="tVideo" class="tabcontent">
+                <div style="padding-left: 10px; padding-bottom: 2px; display: flex; flex: 1;">
+                <img  src="./bb.gif.gif" alt="Bouncing Balls GIF" ><h3 style="margin-left:25%; 
+                    font-family:cursive;">Video </h3>   
+                </div>
+                                
+                <div class="testcolor"></div>
+                <iframe width="500" height="300"  src="https://www.youtube.com/embed/FcCPNxV9uLo"></iframe>           
+                <p style="color:white; background-color: #92a8d1; padding: 10px; font-size: larger;">It was a great experience to upload video on YouTube first time</p>                
+            </div>
+
+            <!--tab GitHub Bio-->
+            <div id="tGitInfo" class="tabcontent">
+                <div style="padding-left: 10px; padding-bottom: 2px; display: flex; flex: 1;">
+                    <img  src="./bb.gif.gif" alt="Bouncing Balls GIF" ><h3 style="margin-left:25%; 
+                        font-family:cursive;">GitHub Bio </h3>   
+                </div>
+                                    
+                <div class="testcolor"></div>
+                
+                <img src="meFrenchie.jpg" style="width:200px; height:200px;"></p> 
+
+                <div style="padding: 10px; color:white; background-color: #92a8d1;"> 
+
+                 <!--pendulum-->
+                <div class="base" >
+                    <div class="holder">
+                        <div class="thread" style="animation: moveItLeft .9s ease-in infinite;">
+                            <div class="pendulum"></div>
+                        </div>
+                    </div>
+    
+                    <div class="holder">
+                        <div class="thread">
+                            <div class="pendulum"></div>
+                        </div>
+                    </div>
+
+                    <div class="holder">
+                        <div class="thread">
+                            <div class="pendulum"></div>
+                        </div>
+                    </div>
+
+                    <div class="holder">
+                        <div class="thread">
+                            <div class="pendulum"></div>
+                        </div>
+                    </div>
+
+                    <div class="holder">
+                        <div class="thread" style="animation: moveItRight .9s ease-out infinite;">
+                            <div class="pendulum"></div>
+                        </div>
+                    </div>
+                </div>
+                <!--end of pendulum-->
+
+                    <ul style="padding:5px; margin:2px; color: black; font-size: larger;">
+                        <li>
+                            <a href="nileemas/github.io"> 
+                            <span><img src="./githubicon.png"> Visit My GitHub Account: </span>        </a>
+                        </li>
+                        <li>
+                            <a href = "https://github.com/NileemaS/NileemaS/blob/main/README.md" >
+                            <span class="glyphicon glyphicon-folder-open" > README </span></a>
+                        </li>             
+                    </ul>
+                </div>
+            </div>
+
+            <!--tab Contact-->            
+            <div id="tContact" class="tabcontent divimg">
+                <div style="padding-left: 10px; padding-bottom: 2px; display: flex; flex: 1;">
+                    <img  src="./bb.gif.gif" alt="Bouncing Balls GIF" ><h3 style="margin-left:25%; 
+                        font-family:cursive;">>Contact</h3>   
+                </div>
+                                    
+                <div class="testcolor"></div>   
+                  
+                    <div style="color: white; font-size: 32; font-family:cursive; background-color: #92a8d1; width:300px; padding: 10px;"> 
+                     <p> I am located in Connecticut. 
+                    This picture is Connecticut river clicked from Glastonbury RiverFront by me. </p>
+                      
+                <ul>
+                    <li>
+                        <p>  <a href="mailto:nileemashah@yahoo.com">             
+                        <img src = "https://user-images.githubusercontent.com/96500743/159628684-930b27c8-946a-4107-aebe-5f7046b9f6c5.png" alt="Email" />
+                        <span style="color:white;"> Email Me</span> </a> </p>
+                    </li> 
+                    <li>
+                        <p><a href="https://www.linkedin.com/feed/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin& logoColor=white" alt="LinkedIn Badge"/>
+                        <span style="color:white;"> Connect Me </span> </a> </p> 
+                    </li>
+                    <li>        
+                        <p> <a href = "nileemas.github.io" > <img src="./githubicon.png" alt="github icon" /> 
+                        <span style="color:white;"> GitHub Account </span></a> </p>
+                    </li>
+                    <li>
+                        <p> <span class="glyphicon glyphicon-phone" style="color: blue;"></span> Call me 860-713-3911 </p>
+                    </li>
+                </ul>
+            
+                    <p>Thank You!! </p>
+                
+                </div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+
+        </div>    
+        <div id = "rightside" class = "divright"> AD: 
+            <div><img src = "doll.jpg" alt="Doll Image" class="adsize"></div>
+            <div> <img src = "ballarrangement.jpg" alt="Ball Arrangement" class="adsize"></div>
+            <div><img src = "qrcode.jpeg" alt = "QR Code" class="adsize"></div>
+            <div><img src = "frenchie.jpg" alt = "Frenchie" class="adsize"></div>
+        </div>
+    </div>
+
+    <footer-comp> </footer-comp>
+
+</body>
+
+<script>
+    function openTab(evt, tabName) {
+
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
+</html>
