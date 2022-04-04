@@ -15,6 +15,7 @@ connectedCallback() {
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
  <link rel = "stylesheet" href = "styles.css">
+ <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Audiowide">
  <script src= "search.js" type="text/javascript"></script>
 
 </head>
@@ -25,20 +26,16 @@ connectedCallback() {
  <div class="card card-plain">
 
     <div class= "card-header"  role="tab" id="heading1">
-
-              
-         <span style="font-size:32px; font-weight:bold; font-family: cursive; padding: 5px;margin-top:2px; margin-left:20%; text-align:center;">  Future Bounce Projects</span> 
-                 
-                     
         <button class="navbar-toggler" type="button" data-toggle="collapse"    
             data-target="#collapse2"" aria-controls="collapse2" aria-expanded="false" 
-            aria-label="Toggle navigation">
+            aria-label="Toggle navigation" style="margin-left:20px; padding:2px;font-weight: bold;">
             <span class="glyphicon glyphicon-menu-hamburger"></span>
             <span class = "seefont" >Menu  </span>     
         </button>
-        
-        
-
+              
+        <span style="margin-left: 30%; font-family: red serif; font-size:36px;">
+          Future Bounce Projects </span>
+                     
         <form class="navbar-form navbar-right">  
             <div class="dropdown">
                 <button class="btn btn-primary dropdown-toggle dropbtn" type="button" 
